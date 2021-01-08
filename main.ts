@@ -275,11 +275,108 @@ function 第一段 () {
 }
 let light2 = 0
 music.setTempo(199)
+basic.pause(1000)
 basic.forever(function () {
     light2 = input.lightLevel()
-    if (light2 > 130) {
-        basic.showString("2020")
-        basic.showIcon(IconNames.Heart)
-        basic.showString("Merry Christmas")
+    if (light2 > 50) {
+        basic.showString("2021 Vera Ally Joe 306 Happy New Year")
+        basic.showLeds(`
+            # . . . #
+            . # . # .
+            . . # . .
+            . . . . .
+            . . . . .
+            `)
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . . .
+            . . # # .
+            `)
+        basic.showLeds(`
+            . # . . .
+            . # # # .
+            . # . . #
+            . # . . .
+            . # . . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . # . . .
+            # . # . .
+            # . # . .
+            . # . # .
+            `)
+        basic.showLeds(`
+            . # . . .
+            . # . . .
+            . # . . .
+            . # . . .
+            . # # # .
+            `)
+        basic.showLeds(`
+            . . # . .
+            . . . . .
+            . . # . .
+            . . # . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . # . . .
+            . # . # .
+            . # # . .
+            . # . # .
+            . # . . #
+            `)
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . . .
+            . . # # .
+            `)
+        basic.showLeds(`
+            # # # # #
+            . . # . .
+            . . # . .
+            # . # . .
+            . # # . .
+            `)
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . . .
+            . . # # .
+            `)
+        basic.showLeds(`
+            . # . . .
+            . # # # .
+            . # . . #
+            . # . . .
+            . # . . .
+            `)
+        basic.showLeds(`
+            . . # . .
+            . # . # .
+            . # # # .
+            . # . . .
+            . . # # .
+            `)
+        basic.showLeds(`
+            . . . . .
+            # . . . .
+            # # # # #
+            # . # . #
+            # . # . #
+            `)
+        basic.showLeds(`
+            # . . . #
+            . # . # .
+            . . # . .
+            . # . . .
+            # . . . .
+            `)
     }
 })
